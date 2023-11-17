@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         <section className="pb-20 bg-fack -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
@@ -106,19 +106,19 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              
+
 
             </div>
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto bg-black/25 rounded-xl">
-                
+
                 <h3 className="text-3xl mb-2 font-semibold leading-normal mt-8">
                   About us
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                   We are software development students who been motivated
                   by the non-existent or non-functional online vintage stores
-                  in Uruguay. Our mindset is letting users to feel free by selling 
+                  in Uruguay. Our mindset is letting users to feel free by selling
                   their products, the goal is connect those users with people who would want to buy them.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
@@ -159,13 +159,13 @@ export default function Home() {
                       Impact
                     </h4>
                     <p className="text-md font-light mt-2 text-white text-right">
-                    According to figures from the United Nations Environment Programme, producing
-                     a pair of jeans requires 7,500 liters of water, which could quench a person's
+                      According to figures from the United Nations Environment Programme, producing
+                      a pair of jeans requires 7,500 liters of water, which could quench a person's
                       thirst for seven years. Additionally, throughout the entire process
-                       (from growing the cotton to transporting it to the store), 33.4 kilograms of
-                        carbon equivalent are emitted.
-                    If this is just for one pair of jeans, let's consider the environmental cost
-                     of what is in all of our closets.
+                      (from growing the cotton to transporting it to the store), 33.4 kilograms of
+                      carbon equivalent are emitted.
+                      If this is just for one pair of jeans, let's consider the environmental cost
+                      of what is in all of our closets.
                     </p>
                   </blockquote>
                 </div>
@@ -191,55 +191,53 @@ export default function Home() {
             </div>
           </div>
         </div> */}
-        <div className="h-full bg-cover bg-center opacity-80 mb-20 bg-fack">
-          <h1 className="text-3xl font-bold border-t-4 text-white border-beige flex items-center justify-center">
+        <div className="h-full bg-cover bg-center opacity-80 mb-20 bg-brown">
+          <h1 className="text-3xl font-bold border-t-4 text-prussian border-beige flex items-center justify-center">
             Meet our team
           </h1>
           <div className="w-full flex flex-wrap justify-evenly mb-32 bg-prussian">
-            <div className="w-full flex flex-wrap justify-evenly mb-32 bg-prussian">
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
-                <figure className="px-4 pt-4">
-                  <img src="./igni.jpg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
+                <figure className="px-4 pt-4 flex justify-center">
+                  <img src="./igni.jpg" alt="foto" className="max-w-[60%] max-h-[60%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-white flex text-xl items-center justify-center">
-                    Ignacio Llanes / Front-End Developer
+                  <h3 className="text-brown flex text-xl items-center justify-center mt-10">
+                    Ignacio Llanes - Front-End Developer
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
-                <figure className="px-4 pt-4">
-                  <img src="./a.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
+                <figure className="px-4 pt-4 flex justify-center">
+                  <img src="./a.jpeg" alt="foto" className="max-w-[60%] max-h-[65%] h-auto rounded-xl" />
                 </figure>
-                <div className="card-body items-center text-center">
-                  <h3 className="text-white flex text-xl items-center justify-center">
-                    Facundo Machado Back-End Developer / Project Manager
+                <div className="card-body items-center text-center mb-8">
+                  <h3 className="text-brown flex text-xl items-center justify-center mt-10">
+                    Facundo Machado - Back-End Developer / Project Manager
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
-                <figure className="px-4 pt-4">
-                  <img src="./ale.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
+                <figure className="px-4 pt-4 flex justify-center">
+                  <img src="./ale.jpeg" alt="foto" className="max-w-[60%] max-h-[60%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-white flex text-xl items-center justify-center">
-                    Alejandro Rivello / Front-End Developer
+                  <h3 className="text-brown flex text-xl items-center justify-center mt-10">
+                    Alejandro Rivello - Front-End Developer
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
-                <figure className="px-4 pt-4">
-                  <img src="./c.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
+                <figure className="px-4 pt-4 flex justify-center">
+                  <img src="./c.jpeg" alt="foto" className="max-w-[60%] max-h-[60%] h-auto rounded-xl " />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-white flex text-xl items-center justify-center">
-                    Lauro Lamas / Full-Stack Developer
+                  <h3 className="text-brown flex text-xl items-center justify-center mt-10">
+                    Lauro Lamas - Full-Stack Developer
                   </h3>
                 </div>
               </div>
             </div>
           </div>
-        </div>
       </div >
     </>
   );
