@@ -34,7 +34,7 @@ export default function Home() {
           <div className="bg-cover bg-left w-1/3 min-h-full bg-black/25">
             <div className="bg-vintage-pattern text-white p-8">
               <div className="relative h-full w-full">
-                <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+                <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/25">
                   <div className="w-3/4 text-left md:w-/4">
                     <Typography variant="h1" color="white" className="mb-4 text-3xl md:text-4xl lg:text-5xl mt-16 drop-shadow-2xl" >
                       ReVint Vintage Clothing
@@ -57,7 +57,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  -mt-16">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg -mt-16">
                   <div className="flex justify-center">
                     <div className="-mt-8 inline-block rounded-full bg-brown p-4 text-primary shadow-md">
                       <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8"><path fill="#000000" d="M704 288h131.072a32 32 0 0 1 31.808 28.8L886.4 512h-64.384l-16-160H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96H217.92l-51.2 512H512v64H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4zm-64 0v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4h256zm201.408 483.84L768 698.496V928a32 32 0 1 1-64 0V698.496l-73.344 73.344a32 32 0 1 1-45.248-45.248l128-128a32 32 0 0 1 45.248 0l128 128a32 32 0 1 1-45.248 45.248z" />
@@ -106,23 +106,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center mx-auto my-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="flex justify-center">
-                    <div className="-mt-8 inline-block rounded-full bg-brown p-4 text-primary shadow-md">
-                      <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8">
-                        <path fill="#000000" d="M704 288h131.072a32 32 0 0 1 31.808 28.8L886.4 512h-64.384l-16-160H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96H217.92l-51.2 512H512v64H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4zm-64 0v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4h256zm201.408 483.84L768 698.496V928a32 32 0 1 1-64 0V698.496l-73.344 73.344a32 32 0 1 1-45.248-45.248l128-128a32 32 0 0 1 45.248 0l128 128a32 32 0 1 1-45.248 45.248z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="px-4 py-5 flex-auto">
-                    <h6 className="text-xl font-semibold text-black">Modify your product</h6>
-                    <p className="mt-2 mb-4 text-black">
-                      Forgot something? Modify any of your products whenever you want!
-                    </p>
-                  </div>
-                </div>
-              </div>
+              
 
             </div>
             <div className="flex flex-wrap items-center mt-32">
@@ -171,11 +155,17 @@ export default function Home() {
                         className="text-green-600 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      
+                    <h4 className="text-xl font-bold text-white text-right">
+                      Impact
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      The amount of clothes that are thrown away every year is increasing. We want to help you to recycle your clothes and give them a second life.
+                    <p className="text-md font-light mt-2 text-white text-right">
+                    According to figures from the United Nations Environment Programme, producing
+                     a pair of jeans requires 7,500 liters of water, which could quench a person's
+                      thirst for seven years. Additionally, throughout the entire process
+                       (from growing the cotton to transporting it to the store), 33.4 kilograms of
+                        carbon equivalent are emitted.
+                    If this is just for one pair of jeans, let's consider the environmental cost
+                     of what is in all of our closets.
                     </p>
                   </blockquote>
                 </div>
@@ -202,47 +192,47 @@ export default function Home() {
           </div>
         </div> */}
         <div className="h-full bg-cover bg-center opacity-80 mb-20 bg-fack">
-          <h1 className="text-3xl text-semibold border-t-4 border-beige flex items-center justify-center">
-            Our team
+          <h1 className="text-3xl font-bold border-t-4 text-white border-beige flex items-center justify-center">
+            Meet our team
           </h1>
-          <div className="w-full flex flex-wrap justify-evenly mb-32 bg-beige">
-            <div className="w-full flex flex-wrap justify-evenly mb-32 bg-beige">
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8">
+          <div className="w-full flex flex-wrap justify-evenly mb-32 bg-prussian">
+            <div className="w-full flex flex-wrap justify-evenly mb-32 bg-prussian">
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
                 <figure className="px-4 pt-4">
                   <img src="./igni.jpg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-marron flex text-xl items-center justify-center">
+                  <h3 className="text-white flex text-xl items-center justify-center">
                     Ignacio Llanes / Front-End Developer
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8">
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
                 <figure className="px-4 pt-4">
                   <img src="./a.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-marron flex text-xl items-center justify-center">
+                  <h3 className="text-white flex text-xl items-center justify-center">
                     Facundo Machado Back-End Developer / Project Manager
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8">
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
                 <figure className="px-4 pt-4">
                   <img src="./ale.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-marron flex text-xl items-center justify-center">
+                  <h3 className="text-white flex text-xl items-center justify-center">
                     Alejandro Rivello / Front-End Developer
                   </h3>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8">
+              <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-2xl">
                 <figure className="px-4 pt-4">
                   <img src="./c.jpeg" alt="foto" className="max-w-[80%] max-h-[80%] h-auto rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
-                  <h3 className="text-marron flex text-xl items-center justify-center">
+                  <h3 className="text-white flex text-xl items-center justify-center">
                     Lauro Lamas / Full-Stack Developer
                   </h3>
                 </div>
