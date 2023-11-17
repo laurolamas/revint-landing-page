@@ -1,3 +1,5 @@
+const { rgba } = require('style-value-types');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -15,7 +17,10 @@ module.exports = {
         'marron': '#43302b',
         'columbia': '#D1EAF0',
         'prussian': '#012A4A',
-        'asdd': '#00000',
+        'cream': '#B1B0C1',
+        'jean': '#05407E',
+        'whity': '#F3F4F6',
+        'whity2': '#F9FAFB',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

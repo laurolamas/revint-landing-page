@@ -13,7 +13,7 @@ export default function Header() {
 
 
   return (
-    <header className="fixed top-0 w-full clearNav z-50 bg-black/25">
+    <header className="fixed top-0 w-full z-50 bg-black/25">
       <div className="max-w-1xl mx-auto flex flex-wrap p-5 flex-col md:flex-row">
         <div className="flex flex-row items-center justify-between p-3 md:p-1">
           <a
