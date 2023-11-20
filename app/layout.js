@@ -1,14 +1,14 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Header from './components/header'
-import Footer from './components/footer'
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'ReVint Vintage Clothing',
-  description: 'Maded with love by Us',
-}
+  title: "ReVint Vintage Clothing",
+  description: "Maded with love by Us",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -19,5 +19,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  )
+  );
 }
