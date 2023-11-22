@@ -250,6 +250,16 @@ export default function Home() {
                   Ignacio Llanes - Front-End Developer
                 </h3>
               </div>
+              <Link className="" href="https://www.linkedin.com/in/ignacio-llanes-0b6223280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  Linkedin
+                </button>
+              </Link>
+              <Link className="" href="https://github.com/Nacho228">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  GitHub
+                </button>
+              </Link>
             </div>
             <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
               <figure className="px-4 pt-4 flex justify-center">
@@ -264,6 +274,16 @@ export default function Home() {
                   Facundo Machado - Back-End Developer / Project Manager
                 </h3>
               </div>
+              <Link className="" href="https://www.linkedin.com/in/facundo-machado-martinez-b91564204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  Linkedin
+                </button>
+              </Link>
+              <Link className="" href="https://github.com/kundi21">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  GitHub
+                </button>
+              </Link>
             </div>
             <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
               <figure className="px-4 pt-4 flex justify-center">
@@ -278,6 +298,16 @@ export default function Home() {
                   Alejandro Rivello - Front-End Developer
                 </h3>
               </div>
+              <Link className="" href="https://www.linkedin.com/in/alejandro-rivello/">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  Linkedin
+                </button>
+              </Link>
+              <Link className="" href="https://github.com/alejandr088">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  GitHub
+                </button>
+              </Link>
             </div>
             <div className="w-full sm:w-1/2 md:w-96 lg:w-1/4 mb-8 shadow-xl">
               <figure className="px-4 pt-4 flex justify-center">
@@ -292,6 +322,16 @@ export default function Home() {
                   Lauro Lamas - Full-Stack Developer
                 </h3>
               </div>
+              <Link className="" href="https://uy.linkedin.com/in/lauro-lamas-zabaleta-512816141">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  Linkedin
+                </button>
+              </Link>
+              <Link className="" href="https://github.com/laurolamas">
+                <button className="text-sm btn btn-ghost text-white animate-pulse hover:bg-sky-900">
+                  GitHub
+                </button>
+              </Link>
             </div>
           </div>
         </div>
